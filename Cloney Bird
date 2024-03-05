@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<manifest android:installLocation="internalOnly" android:versionName="" android:versionCode="1" package="com.easyandroidcoding.cloneybirdlibgdx" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<uses-sdk android:targetSdkVersion="14" android:minSdkVersion="4"/>
+
+<supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true"/>
+
+
+-<application android:label="Cloney Bird LibGDX" android:icon="@drawable/icon">
+
+
+-<activity android:label="Cloney Bird LibGDX" android:screenOrientation="portrait" android:name=".main" android:launchMode="singleTop" android:windowSoftInputMode="stateHidden">
+
+
+-<intent-filter>
+
+<action android:name="android.intent.action.MAIN"/>
+
+<category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+</application>
+
+</manifest>
